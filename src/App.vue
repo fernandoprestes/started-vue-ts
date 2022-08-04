@@ -1,9 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
-  <main>
-    <h2>Hello World!</h2>
-  </main>
+  <router-view />
 </template>
-
-<style scoped></style>
