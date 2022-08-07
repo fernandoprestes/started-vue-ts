@@ -1,0 +1,19 @@
+:root {
+  /* @link https://utopia.fyi/type/calculator?c=640,18,1.2,1440,24,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+  --font-step-x: clamp(0.78rem, calc(0.73rem + 0.13vw), 0.84rem);
+  --font-step-s: clamp(0.94rem, calc(0.79rem + 0.38vw), 1.13rem);
+  --font-step-m: clamp(1.13rem, calc(0.83rem + 0.75vw), 1.5rem);
+  --font-step-l: clamp(1.35rem, calc(0.83rem + 1.3vw), 2rem);
+  --font-step-xl: clamp(1.62rem, calc(0.78rem + 2.09vw), 2.67rem);
+  --font-step-2xl: clamp(1.94rem, calc(0.66rem + 3.22vw), 3.55rem);
+  --font-step-3xl: clamp(2.33rem, calc(0.41rem + 4.81vw), 4.74rem);
+  --font-step-4xl: clamp(2.8rem, calc(-0.01rem + 7.03vw), 6.31rem);
+  --font-size-default: var(--font-step-s);
+  --line-height-default: 1.5;
+
+  // @see https://systemfontstack.com/
+  --font-family-sans-serif: roboto, helvetica, arial, sans-serif;
+  --font-family-serif: times new roman, times, source serif pro, serif;
+  --font-family-mono: consolas, monaco, liberation mono, lucida console,
+    monospace;
+}

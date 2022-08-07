@@ -3,10 +3,18 @@
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true,
     "source.organizeImports": false
   },
 
   "eslint.alwaysShowStatus": true,
+
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.enable": true,
+  "stylelint.ignoreDisables": true,
+  "stylelint.validate": ["css", "scss", "postcss"],
+  "stylelint.snippet": ["css", "scss", "postcss"],
 
   "eslint.validate": ["vue", "javascript", "html"],
   "[html]": {

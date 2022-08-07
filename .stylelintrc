@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss",
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-recommended-vue",
+    "stylelint-config-recess-order",
+    "stylelint-config-prettier",
+    "stylelint-config-html/vue"
+  ],
+  "plugins": ["stylelint-sass-render-errors", "stylelint-selector-no-empty"],
+  "rules": {
+    "property-no-vendor-prefix": null,
+    "order/properties-alphabetical-order": null
+  }
+}

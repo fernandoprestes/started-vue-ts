@@ -1,6 +1,8 @@
 {
   "singleQuote": true,
   "trailingComma": "all",
+  "quoteProps": "consistent",
+  "arrowParens": "avoid",
   "vueIndentScriptAndStyle": true,
   "singleAttributePerLine": true
 }
