@@ -2,6 +2,6 @@
 
 <template>
   <main>
-    <h2>Hello World</h2>
+    <h2 class="o-container">Hello World</h2>
   </main>
 </template>
