@@ -17,13 +17,15 @@ ITCSS significa CSS Triângulo Invertido. Ele ajuda você a organizar os arquivo
 ## Organizar camadas em subpastas
 
 ```css
-@import './settings';
-@import './tools';
-@import './generic';
-@import './elements';
-@import './objects';
-@import './components';
-@import './utilities';
+@charset 'utf-8';
+
+@forward 'settings';
+@forward 'tools';
+@forward 'generics';
+@forward 'elements';
+@forward 'objects';
+@forward 'components';
+@forward 'utilities';
 ```
 
 [xfive](https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/)
