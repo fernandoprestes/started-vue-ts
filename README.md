@@ -1,16 +1,28 @@
-# Vue 3 + TypeScript + Vite
+# Template para projetos com Vue3 + TS
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este repositório é um laboratorio de estudos e serve como um template para projetos de estudos usando as seguintes tecnologias:
 
-## Recommended IDE Setup
+## Tecnologias
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+- [Vite](https://vitejs.dev/)
+- [Vue3](https://vuejs.org/)
+- [Vue-Router](https://router.vuejs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [SASS](https://sass-lang.com/)
+- [Eslint](https://eslint.org/)
+- [Eslint-plugin-vue](https://eslint.vuejs.org/)
+- [Prettier](https://prettier.io/)
+- [Stylelint](https://stylelint.io/)
 
-## Type Support For `.vue` Imports in TS
+### Ferramentas recomendadas
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+- [VSCode](https://code.visualstudio.com/)
+- [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [Stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint)
+- [Vite](https://marketplace.visualstudio.com/items?itemName=antfu.vite)
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+---
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+2022 - [github.com/fernandoprestes](https://github.com/fernandoprestes)
