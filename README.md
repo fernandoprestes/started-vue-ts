@@ -13,6 +13,7 @@ Este repositório é um laboratorio de estudos e serve como um template para pro
 - [Eslint-plugin-vue](https://eslint.vuejs.org/)
 - [Prettier](https://prettier.io/)
 - [Stylelint](https://stylelint.io/)
+- [husky](https://typicode.github.io/husky/#/)
 
 ### Ferramentas recomendadas
 
