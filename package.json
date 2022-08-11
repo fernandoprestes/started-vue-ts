@@ -18,11 +18,11 @@
     "*.{js,ts,vue}": [
       "eslint --fix --ignore-path .gitignore",
       "prettier --write",
-      "stylelint --fix"
+      "stylelint --cache --fix "
     ],
     "*.{css,scss}": [
       "prettier --write",
-      "stylelint --fix"
+      "stylelint --cache --fix "
     ]
   },
   "dependencies": {
