@@ -13,6 +13,7 @@
   "scss.validate": false,
   "stylelint.enable": true,
   "stylelint.ignoreDisables": true,
+
   "stylelint.validate": ["css", "scss", "postcss"],
   "stylelint.snippet": ["css", "scss", "postcss"],
 

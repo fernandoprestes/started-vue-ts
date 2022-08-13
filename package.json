@@ -11,8 +11,8 @@
     "format": "prettier --cache --write \"src/**/*.{vue,ts}\"",
     "format:check": "prettier --check .",
     "lint": "eslint . --ext .vue,.ts --fix --ignore-path .gitignore",
-    "stylelint": "stylelint \"**/*.{vue,scss}\" --fix",
-    "stylelint:check": "stylelint \"**/*.{vue,scss}\""
+    "stylelint": "stylelint \"src/**/*.{vue,scss}\" --fix",
+    "stylelint:check": "stylelint \"src/**/*.{vue,scss}\""
   },
   "lint-staged": {
     "*.{js,ts,vue}": [
