@@ -15,12 +15,12 @@
     "stylelint:check": "stylelint \"src/**/*.{vue,scss}\""
   },
   "lint-staged": {
-    "*.{js,ts,vue}": [
+    "*.src/**/*.{js,ts,vue}": [
       "eslint --fix --ignore-path .gitignore",
       "prettier --write",
       "stylelint --cache --fix "
     ],
-    "*.{css,scss}": [
+    "*.src/**/*.{css,scss}": [
       "prettier --write",
       "stylelint --cache --fix "
     ]
