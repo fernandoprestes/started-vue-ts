@@ -1,22 +1,19 @@
-:root {
-  /* @link https://utopia.fyi/type/calculator?c=640,18,1.2,1440,24,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
-  --font-size-xs: clamp(0.78rem, calc(0.73rem + 0.13vw), 0.84rem);
-  --font-size-m: clamp(0.94rem, calc(0.79rem + 0.38vw), 1.13rem);
-  --font-size-lg: clamp(1.13rem, calc(0.83rem + 0.75vw), 1.5rem);
-  --font-size-xl: clamp(1.35rem, calc(0.83rem + 1.3vw), 2rem);
-  --font-size-2xl: clamp(1.62rem, calc(0.78rem + 2.09vw), 2.67rem);
-  --font-size-3xl: clamp(1.94rem, calc(0.66rem + 3.22vw), 3.55rem);
-  --font-size-4xl: clamp(2.33rem, calc(0.41rem + 4.81vw), 4.74rem);
-  --font-size-default: var(--font-size-m);
-  --line-height-default: 1.5;
+/* @link https://utopia.fyi/type/calculator?c=640,18,1.2,1440,24,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+$font-size-xs: clamp(0.78rem, calc(0.73rem + 0.13vw), 0.84rem);
+$font-size-m: clamp(0.94rem, calc(0.79rem + 0.38vw), 1.13rem);
+$font-size-lg: clamp(1.13rem, calc(0.83rem + 0.75vw), 1.5rem);
+$font-size-xl: clamp(1.35rem, calc(0.83rem + 1.3vw), 2rem);
+$font-size-2xl: clamp(1.62rem, calc(0.78rem + 2.09vw), 2.67rem);
+$font-size-3xl: clamp(1.94rem, calc(0.66rem + 3.22vw), 3.55rem);
+$font-size-4xl: clamp(2.33rem, calc(0.41rem + 4.81vw), 4.74rem);
 
-  // @see https://systemfontstack.com/
-  --font-family-sans-serif: -apple-system, blinkmacsystemfont, avenir next,
-    avenir, segoe ui, helvetica neue, helvetica, cantarell, ubuntu, roboto, noto,
-    arial, sans-serif;
-  --font-family-serif: iowan old style, apple garamond, baskerville,
-    times new roman, droid serif, times, source serif pro, serif,
-    apple color emoji, segoe ui emoji, segoe ui symbol;
-  --font-family-mono: menlo, consolas, monaco, liberation mono, lucida console,
-    monospace;
-}
+$font-size-default: $font-size-m;
+$line-height-default: 1.5;
+$letter-spacing: 0.1em;
+
+// @see https://systemfontstack.com/
+$font-family-sans-serif: roboto, helvetica, cantarell, ubuntu, noto, arial,
+  sans-serif;
+$font-family-serif: iowan old style, baskerville, times new roman, droid serif,
+  times, source serif pro, serif;
+$font-family-mono: consolas, liberation mono, lucida console, monospace;
