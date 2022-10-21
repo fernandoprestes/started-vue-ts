@@ -5,9 +5,12 @@ import vue from '@vitejs/plugin-vue';
 const PATH_SRC = path.resolve(__dirname, './src');
 
 export default defineConfig({
+  plugins: [vue()],
+
   server: {
     port: 4000,
   },
+
   resolve: {
     alias: {
       '~/': `${PATH_SRC}/`,
@@ -21,5 +24,4 @@ export default defineConfig({
       },
     },
   },
-  plugins: [vue()],
 });
