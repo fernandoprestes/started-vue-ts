@@ -12,6 +12,7 @@
   "plugins": ["stylelint-sass-render-errors", "stylelint-selector-no-empty"],
   "rules": {
     "property-no-vendor-prefix": null,
-    "order/properties-alphabetical-order": null
+    "order/properties-alphabetical-order": null,
+    "import-notation": null
   }
 }
