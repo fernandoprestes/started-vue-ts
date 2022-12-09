@@ -1,11 +1,12 @@
 import { defineConfig } from 'vite';
 import path from 'path';
 import vue from '@vitejs/plugin-vue';
+import Unocss from 'unocss/vite';
 
 const PATH_SRC = path.resolve(__dirname, './src');
 
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), Unocss()],
 
   server: {
     port: 4000,
@@ -14,14 +15,6 @@ export default defineConfig({
   resolve: {
     alias: {
       '~/': `${PATH_SRC}/`,
-    },
-  },
-
-  css: {
-    preprocessorOptions: {
-      scss: {
-        additionalData: `@import "./src/styles/settings/_index.scss";`,
-      },
     },
   },
 });
