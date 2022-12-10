@@ -20,6 +20,7 @@
     "noImplicitThis": true,
     "preserveValueImports": true,
     "importsNotUsedAsValues": "error",
+    "noEmit": true,
     "paths": {
       "~/*": ["src/*"]
     },
