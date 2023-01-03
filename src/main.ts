@@ -10,7 +10,6 @@ import UsersGatewayHttp from './infra/gateway/UsersGatewayHttp';
 const app = createApp(App);
 
 const httpClient = new AxiosAdapter();
-
 const usersGateway = new UsersGatewayHttp(httpClient);
 
 app.provide('usersGateway', usersGateway);

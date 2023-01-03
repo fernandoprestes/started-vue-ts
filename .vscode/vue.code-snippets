@@ -1,0 +1,8 @@
+{
+  "define props": {
+    "scope": "javascript,typescript",
+    "prefix": "dprops",
+    "body": ["interface Props {$1}", "defineProps<Props>()"],
+    "description": "define as props que um componente vai receber"
+  }
+}
