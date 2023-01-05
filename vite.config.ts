@@ -15,11 +15,9 @@ export default defineConfig({
       toggleButtonVisibility: 'always',
     }),
   ],
-
   server: {
     port: 4000,
   },
-
   resolve: {
     alias: {
       '~/': `${PATH_SRC}/`,

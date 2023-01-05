@@ -23,8 +23,9 @@
     <div v-if="data.isLoading">loading</div>
     <div
       v-else
-      class="bg-amber/40 border-amber rounded-lg border p-5"
+      class="bg-amber/40 border-amber relative rounded-lg border p-5"
     >
+      <div class="i-ph-x-bold hover:(scale-150 ) absolute -right-3 -top-3 text-2xl duration-300 ease-in-out" />
       <div class="flex justify-center">
         <img
           :src="data.user.image"

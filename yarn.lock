@@ -475,7 +475,14 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@iconify/types@^2.0.0":
+"@iconify-json/ph@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@iconify-json/ph/-/ph-1.1.3.tgz#3534e9b773e56dbc52ca62b748b5fa78dc927643"
+  integrity sha512-QSzWMGF8GiBPW89RpQ3bEwEjuRWTv/xxskStUpK7tsXlz3qoPTEM5CQxDUpzUmc9luAWViqD/shIUiuNhUeolw==
+  dependencies:
+    "@iconify/types" "*"
+
+"@iconify/types@*", "@iconify/types@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
   integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
@@ -726,7 +733,7 @@
   dependencies:
     "@unocss/core" "0.48.0"
 
-"@unocss/preset-icons@0.48.0":
+"@unocss/preset-icons@0.48.0", "@unocss/preset-icons@^0.48.0":
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@unocss/preset-icons/-/preset-icons-0.48.0.tgz#3f1c83a067b62549721ab1d5568b47ec7facae35"
   integrity sha512-3vro36gTkjEic5rO9BcUudby8tQ9ZRCduKZ1+4CKP0hKoB58nDm1QZM+kvWQ8RVN2xoSU9vWkHhx1RLl8miE0g==
@@ -739,6 +746,13 @@
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@unocss/preset-mini/-/preset-mini-0.48.0.tgz#bc0ae447aa9f88ce9b93d1d711c57eb73874d70e"
   integrity sha512-u1EWnmLt25SmCC201+9MqLn1qFYw0aRFH+3clHn9xkrLxXMdb5hnCNssTHItalvht+mskHrfxpQmKUBtxpls+g==
+  dependencies:
+    "@unocss/core" "0.48.0"
+
+"@unocss/preset-rem-to-px@^0.48.0":
+  version "0.48.0"
+  resolved "https://registry.yarnpkg.com/@unocss/preset-rem-to-px/-/preset-rem-to-px-0.48.0.tgz#85891a2a7d22f365cbd6c0fa0738d6459ea8ac6d"
+  integrity sha512-WmYrmQ8rkZooMClYnS8YSmdgumAcFpPe/BhqyjqleLv5h415+92dt6S95JA1nUdNzskSv2nTKIJYb2/40knDtQ==
   dependencies:
     "@unocss/core" "0.48.0"
 
@@ -813,7 +827,7 @@
     "@unocss/core" "0.48.0"
     css-tree "^2.3.0"
 
-"@unocss/transformer-variant-group@0.48.0":
+"@unocss/transformer-variant-group@0.48.0", "@unocss/transformer-variant-group@^0.48.0":
   version "0.48.0"
   resolved "https://registry.yarnpkg.com/@unocss/transformer-variant-group/-/transformer-variant-group-0.48.0.tgz#4a3c8061ab8881f350a5da24ec5a19cb1178dbd2"
   integrity sha512-a3S4NTCt2JacUl+qL4eIpUjw1hkvthGV5pgkq8wMa5cGxJy2NpS/ZaLMfwsUA1Eo6fgMfK/QwMeLJihhs7G/qQ==
