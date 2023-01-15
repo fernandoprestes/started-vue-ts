@@ -4,6 +4,7 @@ import '@unocss/reset/tailwind.css';
 import 'uno.css';
 import router from './router';
 import AxiosAdapter from './infra/http/AxiosAdapter';
+import { VueQueryPlugin } from 'vue-query';
 
 import UsersGatewayHttp from './infra/gateway/UsersGatewayHttp';
 
@@ -15,5 +16,6 @@ const usersGateway = new UsersGatewayHttp(httpClient);
 app.provide('usersGateway', usersGateway);
 
 app.use(router);
+app.use(VueQueryPlugin);
 
 app.mount('#app');
