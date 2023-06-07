@@ -1,12 +1,12 @@
 import { createApp } from 'vue';
-import App from './App.vue';
-import '@unocss/reset/tailwind.css';
-import 'uno.css';
-import router from './router';
-import AxiosAdapter from './infra/http/AxiosAdapter';
 import { VueQueryPlugin } from 'vue-query';
 
+import '@unocss/reset/tailwind.css';
+import App from './App.vue';
+import 'uno.css';
 import UsersGatewayHttp from './infra/gateway/UsersGatewayHttp';
+import AxiosAdapter from './infra/http/AxiosAdapter';
+import router from './router';
 
 const app = createApp(App);
 

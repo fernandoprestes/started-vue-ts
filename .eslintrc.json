@@ -1,44 +1,73 @@
 {
-  "root": true,
-  "env": {
-    "browser": true,
-    "es2021": true,
-    "node": true
-  },
-  "extends": [
-    "eslint:recommended",
-    "plugin:vue/vue3-recommended",
-    "@vue/eslint-config-typescript/recommended",
-    "@vue/eslint-config-prettier",
-    "prettier"
-  ],
-  "parser": "vue-eslint-parser",
-  "parserOptions": {
-    "parser": "@typescript-eslint/parser",
-    "ecmaVersion": "latest",
-    "sourceType": "module"
-  },
-  "plugins": ["vue", "html", "prettier"],
-  "rules": {
-    "prettier/prettier": "error",
-    "vue/multi-word-component-names": "off",
-    "vue/html-self-closing": [
-      "error",
-      {
-        "html": {
-          "void": "always",
-          "normal": "always",
-          "component": "always"
-        },
-        "svg": "always",
-        "math": "always"
-      }
-    ],
-    "vue/component-tags-order": [
-      "error",
-      {
-        "order": ["script", "template", "style"]
-      }
-    ]
-  }
+	"root": true,
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:vue/vue3-recommended",
+		"@vue/eslint-config-typescript/recommended",
+		"@vue/eslint-config-prettier",
+		"prettier"
+	],
+	"parser": "vue-eslint-parser",
+	"parserOptions": {
+		"parser": "@typescript-eslint/parser",
+		"ecmaVersion": "latest",
+		"sourceType": "module"
+	},
+	"plugins": ["vue", "html", "prettier", "import"],
+	"rules": {
+		"no-console": "error",
+		"no-duplicate-imports": "error",
+		"prettier/prettier": "error",
+		"vue/multi-word-component-names": "off",
+		"vue/html-self-closing": [
+			"error",
+			{
+				"html": {
+					"void": "always",
+					"normal": "always",
+					"component": "always"
+				},
+				"svg": "always",
+				"math": "always"
+			}
+		],
+		"vue/component-tags-order": [
+			"error",
+			{
+				"order": ["script", "template", "style"]
+			}
+		],
+		"import/order": [
+			"error",
+			{
+				"groups": ["builtin", "external", "internal"],
+				"pathGroups": [
+					{
+						"pattern": "~/*",
+						"group": "external",
+						"position": "before"
+					}
+				],
+				"newlines-between": "always",
+				"alphabetize": {
+					"order": "asc",
+					"caseInsensitive": true
+				}
+			}
+		],
+		"sort-imports": [
+			"error",
+			{
+				"ignoreCase": false,
+				"ignoreDeclarationSort": true,
+				"ignoreMemberSort": false,
+				"memberSyntaxSortOrder": ["none", "all", "single", "multiple"]
+			}
+		]
+	}
 }
